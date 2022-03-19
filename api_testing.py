@@ -83,7 +83,7 @@ def test_result_message(row):
 #****************************************#
 
 #-----TESTING APIS AND RECORDING RESULT TO AN EXCEL FILE-----#
-def execute_api_testing():
+def run_api_testing():
     print('[>] Initiating API Testing!')
     rowcount = sheet.max_row
     for row in range(2,rowcount+1):
@@ -114,7 +114,7 @@ def execute_api_testing():
 
 
 #------EXECUTE------#
-execute_api_testing()
+run_api_testing()
 
 
 
